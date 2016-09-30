@@ -1,4 +1,4 @@
-nav, .logo, .topmenu {
+nav, .logo, .topmenu, .topmenu ul {
     height: 70px;
     margin: 0;
 }
@@ -7,11 +7,10 @@ nav {
     overflow: auto;
     position: fixed;
     background-color: #EEE;
-    opacity: .8;
     width:100%;
     top:0;
     left:0;
-    padding: 10px 20px;
+    padding: 0 20px;
 }
 
 .logo {
@@ -19,9 +18,17 @@ nav {
     padding: 0;
 }
 
+.logo img {
+    height: 50px;
+}
+
 .topmenu {
     overflow: auto;
     float: right;
+    padding: 0;
+}
+
+.topmenu ul {
     padding: 0;
 }
 
@@ -31,9 +38,8 @@ nav {
 }
 
 .btn {
-    padding: 14px 30px;
-    opacity: 1;
-    margin: 0px 25px;
+    padding: auto;
+    margin: 0;
     position: inline-block;
     color: black;
     background-color: transparent;
