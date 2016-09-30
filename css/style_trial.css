@@ -6,6 +6,10 @@
     /*text-align: center;*/
 }
 
+h1{
+    color:white;
+}
+
 .diving {
     float:right;
     width: 40%;
@@ -29,6 +33,7 @@
     opacity: 0.8;
     background-color:#eee;
     height: 10px;
+    overflow:auto;
 }
 
 .logo{
@@ -39,18 +44,23 @@
 }
 
 .left-box {
-    float:right;
+    float:left;
    position:relative;
-   top: 5px;
-   right:8px;
+   /*top: 5px;
+   right:8px;*/
 }
 
-/*.right-box{
+.right-box{
+    width:103px;
    float:right;
    position:relative;
-   bottom:24px;
+   /*bottom:24px;*/
    right:10px;
-}*/
+}
+
+.fa{
+    color:cornflowerblue;
+}
 
 footer {
     height: 150px;
