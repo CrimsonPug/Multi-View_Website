@@ -1,0 +1,71 @@
+nav, .logo, .topmenu, .topmenu ul {
+    height: 70px;
+    margin: 0;
+}
+
+nav {
+    overflow: auto;
+    position: fixed;
+    background-color: #EEE;
+    width:100%;
+    top:0;
+    left:0;
+    padding: 0 20px;
+}
+
+.logo {
+    float: left;
+    padding: 0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.topmenu {
+    overflow: auto;
+    float: right;
+    padding: 0;
+}
+
+.topmenu ul {
+    padding: 0;
+}
+
+.topmenu li {
+    list-style: none;
+    float: left;
+}
+
+.btn {
+    padding: auto;
+    margin: 0;
+    position: inline-block;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    top: 0;
+}
+
+.jumbotron {
+    background-color: transparent;
+    text-align: center;
+    padding: 20% 0;
+    margin: 0;
+    color: rgba(255,0,0,1);
+    background-size: cover;
+    background-position: center center;
+    background-image: url('http://www.bstlhj6.com/data/out/74/4244494-flow-wallpapers.png');
+}
+
+footer {
+    height: 100px;
+    color: #fff;
+    background: #333;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 20% auto;
+}
